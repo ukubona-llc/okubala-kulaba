@@ -47,10 +47,12 @@ I can write up the three classes and the brain mapping as one pentadic table wit
 
 # BWV 1068
 
-<-> Modal Interchange
+
+`<-> Modal Interchange`
 
 # A
 
+```
 1. ||: I-IMaj7-vi7-I/5th
 2. IV-II7/3rd-V-V7/7th
 3. Rootless-I7b9/3rd <-> iidim7-V6/3rd-V7/3rd-V7
@@ -68,8 +70,8 @@ I can write up the three classes and the brain mapping as one pentadic table wit
 6. I-I7/7th-vi-I7/5th <-> V7/5th-I-V/3rd
 7. IV/3rd-V <-> I-V/3rd-V-I-IV
 8. V-IV-V7-V7-I
+```
 
----
 
 # Gemini
 
