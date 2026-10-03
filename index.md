@@ -1,3 +1,26 @@
+```
+I. Engine 
+II. Sample 
+III. Permutation-Combination 
+IV. Decode 
+V. Representation -> I'
+```
+
+This is my breakthrough. And that Engine is 1st class entity. The data it generates is 2nd class. Our experience as the 1st & 2nd class impinge on our:
+ 
+ ```
+I. Sensory-Motor / Thalamic 
+II. Basal Ganglia 
+III. Hippocampus 
+IV. PFC 
+V. Motor Cortex
+```
+
+Consider this our "3rd" Class & Dioinysian, from whence we "sample" and encode as language, science, with perhaps attention to next-token prediction
+
+---
+
+
 This is the cleanest statement of the pentad I've seen from you, and it's the same spine as the chord engine in index.md. There, the acoustic universe is the Engine, the 12 pitch classes are the sample, bass + type + extensions + alterations + omissions is III, functional access is IV, and the selected trajectory is V → I′. The class hierarchy is what the music version was missing.
 
 **What holds up**
