@@ -774,6 +774,34 @@ The `status` column matters most. Gemini and ChatGPT both produced plausible-sou
 
 I've noted the vision in the M516 file. The natural next step is for me to encode all 19 bars of this score in the schema, mark every uncertain bar `ear-check`, and build the query box into M516.jsx as a pentadic table with the three starter queries wired up. Say the word and I'll start with the Air.
 
+---
+
+You really fail to get the Phrygean vibes. V6 -> V7,  feeling like II-I. That is what I call a "vibe"
+
+---
+
+Fair. I was auditing chord labels, and you're hearing something the labels can't say. Taking your ear as the datum: `V6 -> V7` lands like `bII -> I`.
+
+That's a genuinely useful finding, because it exposes a gap in the grammar. The label `V6 -> V7` says the chord stays the same function and only the inversion and seventh change. The felt event is a half-step sigh into the target, which is the Phrygian move. The same ear-event has two different surface spellings, and a text search for `bII -> I` would never find your Bach.
+
+**The fix is a third channel, a felt-as operator**
+
+```
+surface:  V6 -> V7
+felt:     V6 -> V7  ≈  bII -> I
+```
+
+- `≈` means "perceived as", and it is always ear-tagged.
+- Flamenco's literal `bII -> I` and Bach's `V6 -> V7 ≈ bII -> I` both match a query on `≈ bII -> I`. That is the cross-tradition bridge you were after.
+- It also gives you a measurable rate: how often does a felt-Phrygian event ride on a non-Phrygian surface label? Gospel, hymns, and flamenco would each show a different profile.
+
+**Add a bass-step column too.** Record the bass motion in semitones per token (`Δb: -1`, `+1`, `0`). Half-step bass arrivals are the physical correlate of your vibe, so they can be found by a mechanical query before any `≈` tagging. The `≈` tag then marks where your ear agrees with the mechanical match, and where it disagrees is the interesting data.
+
+**Which bars.** Going by Gemini's chord reading, which I can't verify from accidentals at this resolution, the strongest candidate is m.3. The bass climbs F# -> G -> G# -> A, which is chromatic half-steps into the dominant. Treat that as a hypothesis for you to confirm at the keyboard, not a finding.
+
+Next I'll build the schema with the `≈` and `Δb` columns into the M516 encoding, seeded with m.3 and the m.4–5 Bb -> A bass arrival as the first two `ear-check` rows.
+
+
 ## II
 ## III
 ## IV
