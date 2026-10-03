@@ -6,7 +6,7 @@ IV. Decode
 V. Representation -> I'
 ```
 
-This is my breakthrough. And that Engine is 1st class entity. The data it generates is 2nd class. Our experience as the 1st & 2nd class impinge on our:
+This is my breakthrough. And that Engine is 1st class entity. The data it generates is 2nd class. Our experience of the 1st & 2nd class are 3rd class and impinge on our:
  
  ```
 I. Sensory-Motor / Thalamic 
@@ -16,7 +16,7 @@ IV. PFC
 V. Motor Cortex
 ```
 
-Consider this our "3rd" Class & Dioinysian, from whence we "sample" and encode as language, science, with perhaps attention to next-token prediction
+And more. Consider this our "3rd Class" The Dioinysian, from whence we "sample" and encode what becomes language, science, and attention (aka next-token anxiety)
 
 ---
 
