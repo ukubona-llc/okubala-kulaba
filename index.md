@@ -1,20 +1,20 @@
 
 ```
-I. Engine 
-II. Sample 
+I. Engine (Kulaba)
+II. Sample (Okubala)
 III. Permutation-Combination 
 IV. Decode 
-V. Representation -> I'
+V. Representation -> I' (Ukubona)
 ```
 
 This is my breakthrough. And that Engine is 1st class entity. The data it generates is 2nd class. Our experience of the 1st & 2nd class are 3rd class and impinge on our:
  
  ```
-I. Sensory-Motor / Thalamic 
-II. Basal Ganglia 
-III. Hippocampus 
-IV. PFC 
-V. Motor Cortex
+I. Ligand Milieu; Sensory-Motor / Thalamic 
+II. Protozoan Membrane; Basal Ganglia 
+III. Secondary Messenger & Genetics; Hippocampus 
+IV. Epigenetics & Metazoan; PFC 
+V. Cambrian Selection & Graveyard; Motor Cortex
 ```
 
 And more. Consider this our "3rd Class" The Dioinysian, from whence we "sample" and encode what becomes language, science, and attention (aka next-token anxiety)
