@@ -1,3 +1,4 @@
+
 ```
 I. Engine 
 II. Sample 
@@ -17,6 +18,15 @@ V. Motor Cortex
 ```
 
 And more. Consider this our "3rd Class" The Dioinysian, from whence we "sample" and encode what becomes language, science, and attention (aka next-token anxiety)
+
+---
+
+<iframe
+   src="https://www.youtube.com/embed/1PkD47rNkfY"
+   height="500"
+   width="75%"
+>
+</iframe>
 
 ---
 
@@ -811,6 +821,16 @@ felt:     V6 -> V7  ≈  bII -> I
 
 Next I'll build the schema with the `≈` and `Δb` columns into the M516 encoding, seeded with m.3 and the m.4–5 Bb -> A bass arrival as the first two `ear-check` rows.
 
+---
+
+<iframe
+   src="https://www.youtube.com/embed/PyMz0w2UC9s"
+   height="500"
+   width="75%"
+>
+</iframe>
+
+---
 
 ## II
 ## III
