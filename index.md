@@ -92,6 +92,17 @@ I can write up the three classes and the brain mapping as one pentadic table wit
 8. V-IV-V7-V7-I
 ```
 
+---
+
+<iframe
+   src="ukhona/Air0.pdf"
+   height="500"
+   width="75%"
+>
+</iframe>
+
+---
+
 
 # Gemini
 
