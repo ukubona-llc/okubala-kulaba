@@ -1965,6 +1965,7 @@ Files are in `/mnt/user-data/outputs`:
 `music.ndjson`
 
 ```js
+
 {"k":"partial","L":1,"n":1,"ratio":1,"cents":0,"pc":0,"oct":0,"err_c":0}
 {"k":"partial","L":1,"n":2,"ratio":2,"cents":1200,"pc":0,"oct":1,"err_c":0}
 {"k":"partial","L":1,"n":3,"ratio":3,"cents":1901.96,"pc":7,"oct":1,"err_c":1.96}
@@ -2221,6 +2222,76 @@ I kept the existing Gemini epilogue untouched above it. If you'd rather have thi
 
 ---
 
+I read the essay through the pentad, the three-class ordering, `<->` as a regime-change marker, and the ear-as-falsifier rule. I read the core of index.md closely and skimmed the middle, so tell me if a section I skipped changes anything.
+
+## The pentad in Lang's account
+
+| Step | In the essay |
+|---|---|
+| **I. Engine** | Lang calls Bach a summation of centuries of polyphony, not an inventor of a style. The Kunstbücher aim at the "final boundaries of the musical universe," so the Engine is being explored directly. |
+| **II. Sample** | The walks to Hamburg and Lübeck, the copying in church and princely libraries, and the study of Palestrina, Fux, Caldara and Pergolesi. The French dance and Italian concerto forms are also sampled. |
+| **III. Perm/Comb** | The chorale preludes (Lang says to compare the harmonizations of one tune), the Chaconne with its equal-length variations, the Brandenburgs, and the contrafacta, which turn the cantatas into the B minor Mass. |
+| **IV. Decode** | The numerology (Credo ×49, B-A-C-H = 14), and the question of whether we "understand" Bach at all. |
+| **V. → I′** | The Kunstbücher were written for other composers to study. The transmission chain is pupils' copies, van Swieten, Mozart and Beethoven, Forkel, Mendelssohn in 1829, Spitta, and the Neue Bach-Ausgabe. |
+
+Bach's own career also fits it. Sampling was the early years, recombination was Weimar and Cöthen, and Leipzig is where the environment failed to decode him (the "old Zopf" era). Representation was the late anthologies.
+
+## The three classes
+
+Lang's debunking of the "forgotten, then rediscovered" legend is the strongest fit. The Engine's output (manuscripts, copies, Forkel's biography, printed keyboard works) never disappeared. What was missing was the third class, the public's experience of it. Mendelssohn didn't restore data, he restored experience. Lang's closing question, whether we really understand Bach, is your point that counting the data isn't seeing the Engine. His comment that period instruments and small ensembles don't solve the riddle fits too, since they reproduce surface and not generator.
+
+## Where `<->` already appears
+
+- **Ombra scenes.** In the Passions, the strings freeze into stationary chords whenever Jesus sings. That is a deliberate grammar switch, a regime change in your sense.
+- **Violin idioms.** The concertos use an Italian violin style and the solo sonatas a German one.
+- **"Semicolons rather than full stops."** Lang says Bach's phrases chain without closing. That supports your local-window heuristic, since a locally read gradient is the natural reading of music that never terminates globally.
+
+## Where I'd push
+
+**1. Lang's numerology is a constraint, not a decode.** Counting 49 entries is a choice made at III. Lang admits listeners can't perceive it and calls it private. Your decode is listener-side: the ear and keyboard falsify, and TEARS carries the felt salience. Those are opposite ends of Step IV. Numerology also has hidden free parameters. Lang's "A=1, B=2" gives Credo = 45 in the modern 26-letter alphabet (my arithmetic). It only reaches his 43 in the 24-letter baroque alphabet, where I/J and U/V merge. That is a metaphor-until-it-predicts case, and Lang's complaint about Pirro and Schweitzer's "excessive hermeneutics" is the same failure.
+
+**2. "Summation, not pioneer" is a testable claim.** Your `edge` records can test it. Lang hands you the candidate corpus: Palestrina, Frescobaldi, Buxtehude, Böhm, Vivaldi, Fux, Caldara. Count `b2>1` and `IV <-> iv` edges in each under a `corpus` field. If Lang is right, Bach's weights should look like a mixture of those sources. If the mixture fits poorly, Bach is a distinct generator. Either result would also tell you whether the Phrygian gesture you found in the Air is inherited vocabulary or his own.
+
+**3. Lang is macro and you are micro.** He never mentions the Air by name. His only link is that the orchestral suites were revived by Mendelssohn, with Schumann's line about being rocked "on his little finger." He also says nothing at chord level, so he can't confirm or deny your m.4 reading. His claims about the B minor Mass proportions, and that the modern piano is acceptable, are his own positions, and the latter is contested.
+
+If it's useful, I can turn the Lang-derived corpus list into `corpus` tags and a counting plan for the `w:null` edge weights, which is your open item V.
+
+---
+
+149. SEBASTIAN BACH.—In so far as we do not hear Bach's music as perfect and experienced connoisseurs of counterpoint and all the varieties of the fugal style (and accordingly must dispense with real artistic enjoyment), we shall feel in listening to his music—in Goethe's magnificent phrase—as if “we were present at God's creation of the world.” In other words, we feel here that something great is in the making but not yet made—our mighty modern music, which by conquering nationalities, the Church, and counterpoint has conquered the world. In Bach Part II. The Wanderer And His Shadow. 249 there is still too much crude Christianity, crude Germanism, crude scholasticism. He stands on the threshold of modern European music, but turns from thence to look at the Middle Ages. -- Nietzsche in the Wanderer and his shaddow. Do they align ?
+
+---
+
+Mostly yes on the diagnosis, and no on the verdict.
+
+## Where they align
+
+**Bach faces backward.** Nietzsche says Bach stands on the threshold of modern music but turns to look at the Middle Ages. Lang says nearly the same thing. Bach is a summation of the old polyphonic era, which was giving way to homophony by his death. He also makes Bach's own contemporaries part of the evidence: they found him antiquated, and his sons called him "old Bach." Lang even mentions the "Gothic" Bach, which is Nietzsche's medievalism in a different word.
+
+**Nietzsche's three "crudenesses" each have a Lang counterpart.**
+- Crude Christianity matches the Lutheran chorale as Bach's spiritual centre.
+- Crude Germanism matches the "particularly German" sound of the solo violin works and the German speculative mysticism.
+- Crude scholasticism matches the Kunstbücher, the numerology, and the "mathematical" Bach.
+
+**The listener needs expertise.** Nietzsche says that without connoisseurship we lose real artistic enjoyment. Lang says the affective power in the Kunstbücher sits at depths that need long, devoted study.
+
+**Both use creation imagery.** Nietzsche quotes Goethe's feeling of being present at the creation of the world, and Lang calls Bach a phenomenon of nature.
+
+## Where they split 
+
+**Finished or unfinished.** For Nietzsche, something great is in the making but not yet made, and the crudeness is the evidence. For Lang, Bach is a completion. He calls the chorale's development with Bach its ideal and final stage, and he says the organ works remain unchallenged. A summation is the opposite of a raw beginning.
+
+**Conquering nationalities.** Nietzsche lists this as something modern music does and Bach hasn't yet done. Lang credits Bach with reconciling German, Italian and French music into one individual style, in the company of Lassus, Handel and Mozart. On this point Lang says Bach already did what Nietzsche reserves for the future.
+
+**Date and bias.** Nietzsche wrote in 1879, at the height of the Romantic reading of Bach. Lang (1985) criticizes that tradition's Romantic and theological bias, so he is partly arguing against the lens Nietzsche inherited.
+
+## Through your lens
+
+Nietzsche's passage is a third-class report. He is describing how the Engine feels to a listener who can't decode it, so the felt sense of generation arrives without the ability to read the output. That fits your point that experience and Engine are different classes.
+
+Backward-looking and forward-feeding aren't contradictory in your pentad. Compiling the past is what makes a Kunstbuch usable as I′ for later composers, so Nietzsche's threshold and Lang's summation can describe the same object.
+
+Nietzsche's claim also gives you a falsifier for your `edge` weights. If Bach is on the threshold, his transition statistics should fall between the pre-Bach corpus (Palestrina, Frescobaldi, Buxtehude) and the later one (Haydn, Mozart). Lang's pure-summation reading predicts they should sit inside the earlier mixture instead.
 
 # Reference
 
