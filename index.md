@@ -1204,11 +1204,11 @@ You began with:
 
 Then:
 
-**I — Engine:** acoustic possibility
-**II — Sample:** the locally observed pitch events
-**III — Permutation/Combination:** possible harmonic/voice-leading constructions
-**IV — Decode:** what kind of tension/dissonance/functional relation is this?
-**V — Representation:** what compact symbolic object preserves the discovery?
+**I — Engine:** acoustic possibility         
+**II — Sample:** the locally observed pitch events         
+**III — Permutation/Combination:** possible harmonic/voice-leading constructions       
+**IV — Decode:** what kind of tension/dissonance/functional relation is this?     
+**V — Representation:** what compact symbolic object preserves the discovery?      
 
 And then:
 
@@ -2190,6 +2190,36 @@ Files are in `/mnt/user-data/outputs`:
 ## V
 
 `M517.jsx` at [Ukubona LLC](https://j-digital-twin.onrender.com/)
+
+---
+
+Here is the whole session compressed to one pentad, written to paste under your existing epilogue.
+
+## Epilogue
+
+| | Step | What happened | What it left behind |
+|---|---|---|---|
+| **I** | **Engine** | Twelve hours with the Air (BWV 1068), with the ear as the generator. The hearing came first and had no words yet. | The "Engine is 1st class, data 2nd, experience 3rd" ordering |
+| **II** | **Sample** | Analysis was limited to a local 2–4 beat window with no global key assumed. Chromatic flips (F♯/F♮, B♭/B♮, D♯/D♮) were kept as raw samples, not errors. | Take 2, an event stream at beat resolution |
+| **III** | **Perm / Comb** | Bass descents were recombined with upper voices and modal swaps (I↔i, IV↔iv). V6 or a rootless 7♭9 was inserted before V7. | The Phrygian half-step slide (♭2→1, ♭6→5) as the recurring motif |
+| **IV** | **Decode** | `<->` marks a regime change and `{X}` marks a chord's dual citizenship. `{≈X}` marks a functional substitute. TEARS (Tension, Extension, Alteration, Rootless) carries the felt salience. Models proposed readings and the ear and keyboard falsified them. | E minor as *i*, with C/E→B/D♯ as the Andalusian VI→V |
+| **V** | **Representation → I′** | The notation became a 71-record ndjson cache with `edge` records as next-token prediction. Bach, gospel and flamenco share one query space. | `mus.mjs` and `music.ndjson`, ready for the next pass (I′) |
+
+**What carries forward:** the Bach analysis was the low-stakes sandbox. The durable result is the loop itself, in which the ear supplies the signal, models propose, the body falsifies, and the corrected string becomes the next input.
+
+**Still open** (these are the I′ for the next session):
+
+| | Open item |
+|---|---|
+| I | Check m.4 at the keyboard: F♮ or F♯ on beats 1–2, and Gm/B♭ or B♭/D on beat 4 |
+| II | Fill `event` records bar by bar. Only 3 are anchored, all marked `verified:false` |
+| III | Sort every `{}` in A3, A4, A8 and B1 into respelling, substitute or altered variant |
+| IV | Test the neural mapping with lesion predictions, so it is more than metaphor |
+| V | Count transitions to replace the `w:null` edge weights |
+
+I kept the existing Gemini epilogue untouched above it. If you'd rather have this replace it, or want a version in the same `$…$` MathJax style as that section, say so.
+
+---
 
 
 # Reference
