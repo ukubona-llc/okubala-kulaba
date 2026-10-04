@@ -1,3 +1,25 @@
+<!-- Paste in <head> -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$','$'],['\\(','\\)']],
+      displayMath: [['$$','$$'],['\\[','\\]']],
+      processEscapes: true
+    },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+<!-- Usage inline: $E = mc^2$ -->
+<!-- Usage block:  $$\int_0^\infty e^{-x} dx = 1$$ -->
+
+
+---
+
+
 
 ```
 I. Engine (Kulaba)
@@ -856,6 +878,7 @@ Next I'll build the schema with the `≈` and `Δb` columns into the M516 encodi
 `-` Seperates half notes / pockets (eg in Basso Continuo)
 `,` Seperates quarter notes / pockets
 `(D Major, E minor)` Keys touched in passage
+`V.V.V.V` Sustained four eighth notes on the dominant
 
 ```
 # A
@@ -864,26 +887,26 @@ Next I'll build the schema with the `≈` and `Δb` columns into the M516 encodi
 1. I, I, IMaj7/7th, IMaj7/7th - vi, vi, vi7/7th, vi7/7th (D Major)
 2. IV, IV, II7/3rd, II7/3rd - V, V, V7/7th, V7/7th
 3. Rootless-I/3rd, Rootless-I7/3rd, bVII6/3rd {bII6/3}, bVII6/3rd {bII6/3} - VI7/3rd {I7/3rd}, VI7/3rd {I7b9/3rd}, VI7 {I7}, VI7 {I7}  (D Major <-> {B minor Phrygian vibes})
-4. i, i7, i7/7th, i7/7th - VI7#/3rd, VI7#/3rd, VI7#, VI7#   <-> V7/3rd-V7 (E minor Aeolian <-> D Major)
-5. I-IMaj7-vi7-vidim7-II7/3rd-II7 <-> V7 
-6. I-IV-V7-I <-> V 
+4. i, i7, i7/7th, i7/7th - VI7#/3rd, VI7#/3rd, VI7#, VI7# {≈ V7, V7} (E minor Aeolian <-> {D Major})
+5. I, I, IMaj7/7th, 1Maj7th(#11)/7th - vi7, vidim7, vidim7(#11)/#11, II7 (D Major)
+6. V, I6, II7, II7 - V.V.V.V (D Major)
 :||
 
 # B
 
 ||: 
-1. V-V7-I7/3rd <-> iidim7 - i - V7/3rd,5th-V7
+1. V, V, V7/7th, V7/7th - I7/3rd <-> iidim7 - i - V7/3rd,5th-V7 (D Major)
 2. i-i7/7th-vidim7 <-> iidim7 - i - V7/3rd-i-ii-V7/3rd
 3. i-v6-iv6-V7-i-i7/7th
 4. IV7/3rd <-> V7/3rd-V7/2nd-V-V7/7th - I/3rd-IV-V7-I <-> I7/7th
-5. IV/3rd <-> I7/3rd-IV-II7/3rd-V-III7/3rd-IV7 <-> V7-i-i7/7th-IV/3rd <-> V7/3rd-V7
+5. IV/3rd <-> I7/3rd-IV-II7/3rd-V-III7/3rd-IV7 ≈ V7-i-i7/7th-IV/3rd <-> V7/3rd-V7
 6. I-I7/7th-vi-I7/5th <-> V7/5th-I-V/3rd
 7. IV/3rd-V <-> I-V/3rd-V-I-IV
 8. V-IV-V7-V7-I 
-9.
-10.
-11.
-12. 
+9. Coming soon
+10. vi, vi, I, I7 -  (D Major)
+11. ii, ii, I, I - V/3rd, V, I, IV (D Major)
+12. V, IV, V, V - I.I.I.I (D Major)
 :||
 ```
 
@@ -944,7 +967,7 @@ I. Engine (Acoustic Dinension) as 1st-Class, Data from Engine as 2nd-Class, Embo
 II. Sample: 12TET as biased sample of harmonic series
 III. Permutation / Combination: root (chromatic), interval, stacks, chords (entirely diatonic)
 IV. Consonance, Dissonance: Tension, Extension, Alteration, Rootless Sonorities (TEARS or Stank Face)
-V. Tension -> Release -> Tension -> ... -> I' (Temporal Dimension)
+V. Tension -> Release -> Tension -> ... -> I' (Temporal Dimension) -> II' (Next-Token Prediction.. Circle of Fifths)
 ```
 
 ## V
