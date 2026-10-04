@@ -846,6 +846,65 @@ Next I'll build the schema with the `≈` and `Δb` columns into the M516 encodi
 ---
 
 ## II
+
+
+---
+
+# Take-2
+
+`<-> Modal Interchange`
+`-` Seperates half notes / pockets (eg in Basso Continuo)
+`,` Seperates quarter notes / pockets
+`(D Major, E minor)` Keys touched in passage
+
+```
+# A
+
+||: 
+1. I, I, IMaj7/7th, IMaj7/7th - vi, vi, vi7/7th, vi7/7th (D Major)
+2. IV, IV, II7/3rd, II7/3rd - V, V, V7/7th, V7/7th
+3. Rootless-I/3rd, Rootless-I7/3rd, bVII6/3rd {bII6/3}, bVII6/3rd {bII6/3} - VI7/3rd {I7/3rd}, VI7/3rd {I7b9/3rd}, VI7 {I7}, VI7 {I7}  (D Major <-> {B minor Phrygian vibes})
+4. i, i7, i7/7th, i7/7th - VI7#/3rd, VI7#/3rd, VI7#, VI7#   <-> V7/3rd-V7 (E minor Aeolian <-> D Major)
+5. I-IMaj7-vi7-vidim7-II7/3rd-II7 <-> V7 
+6. I-IV-V7-I <-> V 
+:||
+
+# B
+
+||: 
+1. V-V7-I7/3rd <-> iidim7 - i - V7/3rd,5th-V7
+2. i-i7/7th-vidim7 <-> iidim7 - i - V7/3rd-i-ii-V7/3rd
+3. i-v6-iv6-V7-i-i7/7th
+4. IV7/3rd <-> V7/3rd-V7/2nd-V-V7/7th - I/3rd-IV-V7-I <-> I7/7th
+5. IV/3rd <-> I7/3rd-IV-II7/3rd-V-III7/3rd-IV7 <-> V7-i-i7/7th-IV/3rd <-> V7/3rd-V7
+6. I-I7/7th-vi-I7/5th <-> V7/5th-I-V/3rd
+7. IV/3rd-V <-> I-V/3rd-V-I-IV
+8. V-IV-V7-V7-I 
+9.
+10.
+11.
+12. 
+:||
+```
+
 ## III
+
+Why this piece is enduringly beautiful:
+
+1. Its the link between high Baroque & modern music (doubled bass: just like in Beethoven's Moonlight)
+2. Masterful modal interchange to simultaneous deliver ii-V7-I sonorities while also offering the pleasure of the infinite beauty
+3. Polyphony is preserved via inner voicing, a practice contemporary gospel has made its signature
+4. Melody leaps like crazy, Bass grinds on in strict eights, but voice-leadings in the inner-voicing remain signature Bach (ie polyphonic)
+5. Rootless 7ths, especially the rootless dom 7b9 have been repurposed since the Prelude in C Major to great effect
+
 ## IV
+
+```
+I. Engine (Acoustic Dinension) as 1st-Class, Data from Engine as 2nd-Class, Embodied Experience of Engine/Data as 3rd-Class
+II. Sample: 12TET as biased sample of harmonic series
+III. Permutation / Combination: root (chromatic), interval, stacks, chords (entirely diatonic)
+IV. Consonance, Dissonance: Tension, Extension, Alteration, Rootless Sonorities (TEARS or Stank Face)
+V. Tension -> Release -> Tension -> ... -> I' (Temporal Dimension)
+```
+
 ## V
