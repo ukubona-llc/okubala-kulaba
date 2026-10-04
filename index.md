@@ -910,7 +910,34 @@ Why this piece is enduringly beautiful:
 4. Melody leaps like crazy, Bass grinds on in strict eights, but voice-leadings in the inner-voicing remain signature Bach (ie polyphonic)
 5. Rootless 7ths, especially the rootless dom 7b9 have been repurposed since the Prelude in C Major to great effect
 
+---
+
+<iframe
+   src="https://www.youtube.com/embed/pYgPw-FMHNQ"
+   height="500"
+   width="75%"
+>
+</iframe>
+
+*Full-Chords*
+
+---
+
 ## IV
+
+
+---
+
+<iframe
+   src="https://www.youtube.com/embed/FUPx42UmSng"
+   height="500"
+   width="75%"
+>
+</iframe>
+
+*On a G-String*
+
+---
 
 ```
 I. Engine (Acoustic Dinension) as 1st-Class, Data from Engine as 2nd-Class, Embodied Experience of Engine/Data as 3rd-Class
