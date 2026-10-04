@@ -895,15 +895,15 @@ Next I'll build the schema with the `≈` and `Δb` columns into the M516 encodi
 # B
 
 ||: 
-1. V, V, V7/7th, V7/7th - I7/3rd <-> iidim7 - i - V7/3rd,5th-V7 (D Major)
-2. i-i7/7th-vidim7 <-> iidim7 - i - V7/3rd-i-ii-V7/3rd
-3. i-v6-iv6-V7-i-i7/7th
-4. IV7/3rd <-> V7/3rd-V7/2nd-V-V7/7th - I/3rd-IV-V7-I <-> I7/7th
-5. IV/3rd <-> I7/3rd-IV-II7/3rd-V-III7/3rd-IV7 ≈ V7-i-i7/7th-IV/3rd <-> V7/3rd-V7
-6. I-I7/7th-vi-I7/5th <-> V7/5th-I-V/3rd
-7. IV/3rd-V <-> I-V/3rd-V-I-IV
-8. V-IV-V7-V7-I 
-9. Coming soon
+1. V, V, V7/7th, V7/7th - I7/3rd {iidim7}, I7/3rd {iidim7}, I7(9th)/9th {i}, I7(9th)/9th {i} (D Major, E minor Aeoloian)
+2. V7/3rd, V7/3rd, V7/5th, V7 - i, i, i7/7th, i7/7th (E minor)
+3. iidim7, iidim7, i, i - V/3rd, i, iidim7, V/3rd (B minor Phrygian)
+4. i, VI, iv, V - i, i, i7/7th, i7/7th (B minor Phrygian)
+5. V7/3rd, V7/3rd, V7/9th, V7/9th - V, V, V7/7th, V7/7th (A Major)
+6. I/3rd, I/3rd, IV, V - I, I, I7/7th, I7/7th (A Major)
+7. I/3rd, I7/3rd, IV, IV - II/3rd, II7/3rd, A, A7 (D Major)
+8. III/3rd, III7/3rd, VI {≈V}, VI7 {≈V7} - ii {i}, ii {i}, ii7/7th, ii7/7th  (D Major, E minor)
+9. V/3rd, V/3rd, V, V7 - I, I, I7/7th, I7/7th (D Major)
 10. vi, vi, I, I7 -  (D Major)
 11. ii, ii, I, I - V/3rd, V, I, IV (D Major)
 12. V, IV, V, V - I.I.I.I (D Major)
@@ -965,7 +965,7 @@ Why this piece is enduringly beautiful:
 ```
 I. Engine (Acoustic Dinension) as 1st-Class, Data from Engine as 2nd-Class, Embodied Experience of Engine/Data as 3rd-Class
 II. Sample: 12TET as biased sample of harmonic series
-III. Permutation / Combination: root (chromatic), interval, stacks, chords (entirely diatonic)
+III. Permutation / Combination: root (chromatic), interval, stacks (entirely diatonic), chords (Genres constraints)
 IV. Consonance, Dissonance: Tension, Extension, Alteration, Rootless Sonorities (TEARS or Stank Face)
 V. Tension -> Release -> Tension -> ... -> I' (Temporal Dimension) -> II' (Next-Token Prediction.. Circle of Fifths)
 ```
