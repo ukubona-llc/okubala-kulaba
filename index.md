@@ -89,7 +89,7 @@ I can write up the three classes and the brain mapping as one pentadic table wit
 5. IV/3rd <-> I7/3rd-IV-II7/3rd-V-III7/3rd-IV7 <-> V7-i-i7/7th-IV/3rd <-> V7/3rd-V7
 6. I-I7/7th-vi-I7/5th <-> V7/5th-I-V/3rd
 7. IV/3rd-V <-> I-V/3rd-V-I-IV
-8. V-IV-V7-V7-I
+8. V-IV-V7-V7-I :||
 ```
 
 ---
