@@ -2810,6 +2810,27 @@ You may already have some of those, and I'd put them to you as candidates:
 
 If those hold, the case for it being the Engine is stronger than anything I was hedging about. Which of them would you commit to?
 
+---
+
+<iframe
+   src="ukhona/chopin-op28-no4.pdf"
+   width="75%"
+   height="500"
+>
+</iframe>
+
+```
+I. Machine, Data, Experiential, Prelingual, Utterance/Music
+II. Sample, 12TET
+III. Permutation/Combiantions
+IV. Tension, Extension, Alteration, Rootless & 1st-Inversion Sonorities (TEARS)
+V. Graveyard/Survivors -> I'. Anthopocene
+```
+
+Please visit https://j-digital-twin.onrender.com/ `M516.jsx`
+
+Chopins piece opens with a 1st inversion sonority of E minor
+
 # Reference
 
 [The Broader Context]( https://ukubona-llc.github.io/trial/) by Ukubona LLC
