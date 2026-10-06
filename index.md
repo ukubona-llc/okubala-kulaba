@@ -2837,11 +2837,11 @@ Then it delivers a reharm on that fixed melody:
 V
 i/3rd
 iiø7, ii°7
-♭II7 (≈V7 tritone sub), ♭II6, ♭iidim {≈rootless V7♭9/♭9}
+♭II7 (≈V7 tritone sub), ♭II6, ♭iidim {≈rootless I7♭9/♭9}
 I7, i7, idim
 ```
 
-In a sense, then, its the good 'ol `ii-V79-i motif`
+In a sense, then, its the good 'ol `ii-V7♭9-i motif`
  
 
 # Reference
