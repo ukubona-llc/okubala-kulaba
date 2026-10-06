@@ -2831,6 +2831,19 @@ Please visit https://j-digital-twin.onrender.com/ `M516.jsx`
 
 Chopins piece opens with a 1st inversion sonority of E minor
 
+Then it delivers a reharm on that fixed melody:
+
+```
+V
+i/3rd
+iiø7, ii°7
+♭II7 (≈diatonic tritone sub), ♭II6, ♭iidim {≈rootless V7♭9/♭9}
+I7, i7, idim
+```
+
+In a sense, then, its the good 'ol `ii-V79-i motif`
+ 
+
 # Reference
 
 [The Broader Context]( https://ukubona-llc.github.io/trial/) by Ukubona LLC
