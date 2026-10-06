@@ -2837,7 +2837,7 @@ Then it delivers a reharm on that fixed melody:
 V
 i/3rd
 iiø7, ii°7
-♭II7 (≈diatonic tritone sub), ♭II6, ♭iidim {≈rootless V7♭9/♭9}
+♭II7 (≈V7 tritone sub), ♭II6, ♭iidim {≈rootless V7♭9/♭9}
 I7, i7, idim
 ```
 
