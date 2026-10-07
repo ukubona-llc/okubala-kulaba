@@ -9,13 +9,13 @@
 <style>
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
 --bg:#f2f5f3;--panel:#e7ece9;--ink:#13201c;--mute:#52635d;--line:#c9d3ce;--acc:#17705a;--accbg:#d5e9e1;
---serif:"Fraunces",Georgia,"Times New Roman",serif;--sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace}
+--col:760px;--g:max(20px,calc((100% - var(--col))/2 + 20px));--serif:"Fraunces",Georgia,"Times New Roman",serif;--sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1512;--panel:#16211d;--ink:#e3ece8;--mute:#93a69e;--line:#26362f;--acc:#6fd6b4;--accbg:#173a30}}
 :root[data-theme="dark"]{--bg:#0d1512;--panel:#16211d;--ink:#e3ece8;--mute:#93a69e;--line:#26362f;--acc:#6fd6b4;--accbg:#173a30}
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px);scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--serif);-webkit-text-size-adjust:100%}
-.bar{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:20;display:flex;align-items:center;gap:12px;padding:10px max(18px,env(safe-area-inset-right,0px)) 10px max(18px,env(safe-area-inset-left,0px));background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:20;display:flex;align-items:center;gap:12px;padding:10px max(var(--g),env(safe-area-inset-right,0px)) 10px max(var(--g),env(safe-area-inset-left,0px));background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .logo{width:38px;height:38px;color:var(--acc);flex:none;display:block}
 .logo svg{width:100%;height:100%;animation:spin 120s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -28,14 +28,14 @@ body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--serif);
 .wf{display:grid;grid-template-columns:repeat(3,5px);gap:4px}.wf i{width:5px;height:5px;border-radius:50%;background:currentColor}
 #theme .moon{display:none}:root[data-theme="dark"] #theme .sun{display:none}:root[data-theme="dark"] #theme .moon{display:block}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #theme .sun{display:none}:root:not([data-theme="light"]) #theme .moon{display:block}}
-.panel{position:fixed;z-index:30;top:calc(env(safe-area-inset-top,0px) + 58px);right:max(12px,env(safe-area-inset-right,0px));width:min(440px,calc(100vw - 24px));max-height:70vh;overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px;display:none}
+.panel{position:fixed;z-index:30;top:calc(env(safe-area-inset-top,0px) + 58px);right:max(var(--g),env(safe-area-inset-right,0px));width:min(440px,calc(100% - 40px));max-height:70vh;overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px;display:none}
 .panel.open{display:block}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
 .tile{display:flex;flex-direction:column;gap:6px;min-height:84px;padding:10px;border-radius:12px;background:var(--bg);border:1px solid var(--line);color:var(--ink);text-decoration:none;font:500 13px/1.25 var(--sans)}
 .tile b{font:400 12px var(--mono);color:var(--mute)}
 .tile:hover{border-color:var(--acc)}
 .tile.on{background:var(--accbg);border-color:var(--acc)}.tile.on b{color:var(--acc)}
-main{max-width:760px;margin:0 auto;padding:96px max(20px,env(safe-area-inset-right,0px)) 120px max(20px,env(safe-area-inset-left,0px))}
+main{max-width:var(--col);margin:0 auto;padding:96px max(20px,env(safe-area-inset-right,0px)) 120px max(20px,env(safe-area-inset-left,0px))}
 .top h1{font:600 clamp(34px,7vw,52px)/1.05 var(--serif);letter-spacing:-.02em;margin:24px 0 8px}
 .top p{margin:0 0 40px;color:var(--mute);font:400 16px/1.5 var(--sans)}
 section{padding-top:8px;margin-bottom:64px;border-top:1px solid var(--line)}
@@ -68,7 +68,7 @@ mjx-container{overflow-x:auto;overflow-y:hidden;max-width:100%}
 footer{color:var(--mute);font:14px var(--sans);text-align:center}
 </style></head><body>
 <div class="bar">
-<span class="logo"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="3"/><polyline points="50.00,4.00 77.04,87.21 6.25,35.79 93.75,35.79 22.96,87.21 50.00,4.00" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round"/></svg></span>
+<span class="logo"><svg viewBox="0 0 100 100" aria-hidden="true"><polyline points="50.00,4.00 77.04,87.21 6.25,35.79 93.75,35.79 22.96,87.21 50.00,4.00" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round"/></svg></span>
 <div class="here" id="here"><b>okubala-kulaba</b></div>
 <button class="ib" id="waf" aria-label="Sections" aria-expanded="false" aria-controls="panel"><span class="wf"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></button>
 <button class="ib" id="theme" aria-label="Toggle light and dark">
